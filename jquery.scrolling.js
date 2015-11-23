@@ -4,7 +4,7 @@
  * @copyright   2015 Sudimage Communication
  * @link        http://www.lastoctoberday.com
  * @licence     http://opensource.org/licenses/MIT MIT
- * @version     1.0.0
+ * @version     1.0.1
  */
 
 (function ($) {
