@@ -1,0 +1,25 @@
+{
+  "name": "jquery.scrolling",
+  "description": "Scroll watcher",
+  "main": [
+    "jquery.scrolling.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11"
+  },
+  "keywords": [
+    "scroll",
+    "scrolling",
+    "jquery",
+    "watcher",
+    "watch"
+  ],
+  "authors": [
+    "Marc-André Appel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ],
+  "private": false
+}
