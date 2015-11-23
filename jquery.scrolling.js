@@ -46,11 +46,11 @@
         return this;
     }
 
-    Scrolling.prototype.position = function () {
+    Scrolling.prototype.pos = function () {
         return scrolling.currentPosition;
     };
 
-    Scrolling.prototype.direction = function () {
+    Scrolling.prototype.dir = function () {
         return scrolling.scrollDirection;
     };
 
