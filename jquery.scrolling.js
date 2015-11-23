@@ -4,16 +4,17 @@
  * @copyright   2015 Sudimage Communication
  * @link        http://www.lastoctoberday.com
  * @licence     http://opensource.org/licenses/MIT MIT
- * @version     1.0.1
+ * @version     1.0.2
  */
 
 (function ($) {
     "use strict";
-    var scrolling = {
+    var $body = $('body'),
+        scrolling = {
         currentPosition: 0,
         scrollDirection: 'down',
         run: function () {
-            var scrollPos = $('html').scrollTop() || $('body').scrollTop();
+            var scrollPos = $('html').scrollTop() || $body.scrollTop();
 
             if (scrollPos > scrolling.currentPosition) {
                 scrolling.scrollDirection = 'down';
@@ -24,18 +25,18 @@
             scrolling.toggle();
         },
         toggle: function () {
-            if (scrolling.scrollDirection === 'down' && $('body').hasClass('scrolling-up')) {
-                $('body')
+            if (scrolling.scrollDirection === 'down' && $body.hasClass('scrolling-up')) {
+                $body
                     .removeClass('scrolling-up')
                     .addClass('scrolling-down');
-            } else if (scrolling.scrollDirection === 'up' && $('body').hasClass('scrolling-down')) {
-                $('body')
+            } else if (scrolling.scrollDirection === 'up' && $body.hasClass('scrolling-down')) {
+                $body
                     .removeClass('scrolling-down')
                     .addClass('scrolling-up');
             }
         },
         init: function () {
-            $('body').addClass('scrolling-' + scrolling.scrollDirection);
+            $body.addClass('scrolling-' + scrolling.scrollDirection);
         }
     };
 
