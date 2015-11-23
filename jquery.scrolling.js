@@ -4,7 +4,7 @@
  * @copyright   2015 Sudimage Communication
  * @link        http://www.lastoctoberday.com
  * @licence     http://opensource.org/licenses/MIT MIT
- * @version     1.0.0
+ * @version     1.0.1
  */
 
 (function ($) {
@@ -46,11 +46,11 @@
         return this;
     }
 
-    Scrolling.prototype.position = function () {
+    Scrolling.prototype.pos = function () {
         return scrolling.currentPosition;
     };
 
-    Scrolling.prototype.direction = function () {
+    Scrolling.prototype.dir = function () {
         return scrolling.scrollDirection;
     };
 
