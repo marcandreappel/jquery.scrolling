@@ -1,9 +1,10 @@
 /**
- * scrolling.js
+ * jquery.scrolling.js
  * @author      Marc-André Appel <marcandre.appel@gmail.com>
  * @copyright   2015 Sudimage Communication
  * @link        http://www.lastoctoberday.com
  * @licence     http://opensource.org/licenses/MIT MIT
+ * @version     1.0.0
  */
 
 (function ($) {
