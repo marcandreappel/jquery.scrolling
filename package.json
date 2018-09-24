@@ -1,5 +1,5 @@
 {
-  "name": "jquery.scrolling",
+  "name": "@marcandreappel/jquery.scrolling",
   "version": "1.0.2",
   "description": "A simple and stupid scroll helper",
   "main": "jquery.scrolling.js",
