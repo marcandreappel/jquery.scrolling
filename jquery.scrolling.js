@@ -1,8 +1,6 @@
 /**
  * jquery.scrolling.js
- * @author      Marc-André Appel <marcandre.appel@gmail.com>
- * @copyright   2015 Sudimage Communication
- * @link        http://www.lastoctoberday.com
+ * @author      Marc-André Appel <marc-andre@appel.fun>
  * @licence     http://opensource.org/licenses/MIT MIT
  * @version     1.0.2
  */

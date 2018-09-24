@@ -1,1 +1,7 @@
-!function($){"use strict";function o(){return $(document).scroll(function(){r.run()}),this}var n=$("body"),r={currentPosition:0,scrollDirection:"down",run:function(){var o=$("html").scrollTop()||n.scrollTop();o>r.currentPosition?r.scrollDirection="down":r.scrollDirection="up",r.currentPosition=o,r.toggle()},toggle:function(){"down"===r.scrollDirection&&n.hasClass("scrolling-up")?n.removeClass("scrolling-up").addClass("scrolling-down"):"up"===r.scrollDirection&&n.hasClass("scrolling-down")&&n.removeClass("scrolling-down").addClass("scrolling-up")},init:function(){n.addClass("scrolling-"+r.scrollDirection)}};o.prototype.pos=function(){return r.currentPosition},o.prototype.dir=function(){return r.scrollDirection},window.Scrolling=new o}(jQuery);
+/**
+ * jquery.scrolling.js
+ * @author      Marc-André Appel <marc-andre@appel.fun>
+ * @licence     http://opensource.org/licenses/MIT MIT
+ * @version     1.0.2
+ */
+!function(n){"use strict";function o(){return n(document).scroll(function(){l.run()}),this}var r=n("body"),l={currentPosition:0,scrollDirection:"down",run:function(){var o=n("html").scrollTop()||r.scrollTop();o>l.currentPosition?l.scrollDirection="down":l.scrollDirection="up",l.currentPosition=o,l.toggle()},toggle:function(){"down"===l.scrollDirection&&r.hasClass("scrolling-up")?r.removeClass("scrolling-up").addClass("scrolling-down"):"up"===l.scrollDirection&&r.hasClass("scrolling-down")&&r.removeClass("scrolling-down").addClass("scrolling-up")},init:function(){r.addClass("scrolling-"+l.scrollDirection)}};o.prototype.pos=function(){return l.currentPosition},o.prototype.dir=function(){return l.scrollDirection},window.Scrolling=new o}(jQuery);
