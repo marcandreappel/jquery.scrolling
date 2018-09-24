@@ -10,3 +10,5 @@ Once included into the page, there's the _Scrolling_ object available.
 ## Install
 
 Bower: bower install jquery.scrolling
+
+NPM: npm i @marcandreappel/jquery.scrolling
