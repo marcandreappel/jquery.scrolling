@@ -1,0 +1,16 @@
+{
+  "name": "jquery.scrolling",
+  "version": "1.0.2",
+  "description": "A simple and stupid scroll helper",
+  "main": "jquery.scrolling.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcandreappel/jquery.scrolling.git"
+  },
+  "author": "Marc-André Appel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcandreappel/jquery.scrolling/issues"
+  },
+  "homepage": "https://github.com/marcandreappel/jquery.scrolling#readme"
+}
